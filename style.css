@@ -1,0 +1,408 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #565d61;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  height: 90px;
+  width: 100%;
+  object-fit: fill;
+  background-color: transparent;
+}
+.rightheader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.appscontainer {
+  display: flex;
+  gap: 2rem;
+  margin-left: 250px;
+}
+i {
+  color: white;
+}
+.number {
+  color: white;
+}
+.contact {
+  display: flex;
+  gap: 0.7rem;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  color: white;
+  gap: 2rem;
+}
+.button {
+  color: black;
+  background-color: yellow;
+  padding: 10px 10px;
+  font-weight: bold;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+@media (max-width: 800px) {
+  ul {
+    font-size: 12px;
+    gap: 0.6rem;
+  }
+  .appscontainer {
+    margin-left: 0%;
+  }
+  .button {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+  .pp {
+    width: 200px !important;
+  }
+  .iconparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading4 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .button {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+  .heading4 {
+    width: 100% !important;
+  }
+  .paratwo {
+    width: 100% !important;
+  }
+  .contactbutn {
+    width: 50% !important;
+    font-size: 10px;
+  }
+  .contactbutton {
+    width: 50% !important;
+    font-size: 10px;
+  }
+
+  .iconparent {
+    gap: 0.2rem;
+  }
+
+  .ourteamparent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teamdiv {
+    width: 50%;
+  }
+}
+@media (max-width: 465px) {
+  .appscontainer {
+    display: flex;
+    gap: 1rem;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .phonenum {
+    font-size: 10px;
+  }
+  .footerchild {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .Services {
+    font-size: 20px;
+  }
+  .alpha {
+    font-size: 12px;
+  }
+  .heading4 {
+    width: 100% !important;
+    font-size: 30px !important;
+  }
+  .Services {
+    font-size: 14px;
+  }
+  .btnone {
+    font-size: 10px;
+  }
+  .btntwo {
+    font-size: 10px;
+  }
+}
+.burner {
+  background-image: url("./slides/slide_02.webp");
+  background-size: 100% 100%; /* Decrease width while maintaining aspect ratio */
+}
+.firstbodyportion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.child {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 260px;
+  flex-direction: column;
+  align-items: center;
+}
+.paratwo {
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+}
+.detailbutn {
+  background-color: yellow;
+  border-radius: 30px;
+  font-weight: 900;
+  padding: 10px 20px;
+}
+.secound-burner {
+  background-color: rgb(242, 211, 37);
+  display: flex;
+  padding: 20px 0px;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.secound-burner img {
+  width: 8rem;
+}
+.handshake {
+  height: 600px;
+  object-fit: fill;
+  width: 100%;
+}
+.parenttwo {
+  display: flex;
+}
+.firstdiv {
+  width: 45%;
+}
+.about {
+  color: orange;
+}
+.company {
+  color: rgb(42, 39, 39);
+  font-size: 40px;
+}
+.secounnddiv {
+  width: 55%;
+  padding-left: 20px;
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  flex-direction: column;
+}
+h5 {
+  color: transparent;
+  text-shadow: 0 0 0.7px rgba(0, 0, 0, 0.5);
+}
+.contactbutton {
+  width: 30%;
+  height: 40px;
+  border: 2px solid orange;
+  border-radius: 30px;
+  background: transparent;
+  color: black;
+}
+.paragraphone {
+  width: 80%;
+}
+.contactbutn {
+  width: 30%;
+  height: 40px;
+  border: 2px solid orange;
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+}
+.secounddiv {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  padding-left: 30px;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #565d61;
+}
+.lasttdiv {
+  width: 50%;
+}
+#yyy {
+  background-color: #565d61;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 20px;
+  align-items: center;
+  gap: 2rem;
+}
+.maintwo {
+  display: flex;
+  flex-direction: column;
+}
+.iconssstyle {
+  display: flex;
+}
+.icon {
+  width: 50px;
+}
+.iconparent {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.speciality {
+  width: 60%;
+}
+.parentfourth {
+  padding: 40px 0px;
+  background-color: rgb(240, 194, 26);
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+.textparent {
+  text-align: center;
+}
+.heaingteam {
+  color: #565d61;
+}
+.hidden {
+  width: 70%;
+}
+.ourteam {
+  width: 70%;
+  object-fit: cover;
+}
+.fa-plus {
+  color: black;
+}
+.ourteamparent {
+  display: flex;
+
+  width: 70%;
+  gap: 1rem;
+  justify-content: center;
+}
+.teamdiv {
+  display: flex;
+  border: 2px solid white;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 25px 10px;
+}
+.lastsecparent {
+  background-color: #565d61;
+  display: flex;
+  padding: 30px 0px;
+  justify-content: center;
+}
+.lastsection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 20px;
+  background-color: rgb(240, 194, 26);
+  width: 70%;
+  padding: 20px 0px;
+
+  align-items: center;
+}
+.lastpara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.lastbtns {
+  display: flex;
+  gap: 1rem;
+}
+.btnone {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 7px 25px;
+  border: none;
+  font-weight: bold;
+}
+.btntwo {
+  border-radius: 20px;
+  padding: 7px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.foooter {
+  background-color: #565d61;
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.footerchild {
+  display: flex;
+  justify-content: center;
+}
+.footerchild > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: center;
+}
+.yyy {
+  color: black;
+  font-size: 40px;
+}
+.footericonsdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.footericons {
+  display: flex;
+  gap: 1.7rem;
+}
+.social {
+  font-size: 35px;
+}
+.color {
+  color: white;
+}
